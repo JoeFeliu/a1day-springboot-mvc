@@ -35,7 +35,7 @@ spec:
       imagePullSecrets:
         - name: acr-secret
       containers:
-      - image: gnhtspfpxdemo.azurecr.io/product-catalog:aa6
+      - image: feliureg.azurecr.io/product-catalog:aa6
         name:  product-web-cntnr
         resources:
           requests:
